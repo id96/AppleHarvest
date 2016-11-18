@@ -1,0 +1,98 @@
+
+html, body {
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Raleway', serif;
+    font-size: 0.9em;
+}
+
+p {
+    font-size: 100%;
+}
+
+/**********************/
+/* styling by section */
+/**********************/
+
+#top {
+    background-color:black;
+    height: 3em;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+	z-index: 1;
+}
+
+#banner {
+    color: white;
+    height: 1em;
+    width: 100%;
+	display: block; 
+	float: left; 
+}
+
+#banner > h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -1.5em; 
+	margin-left: 4em;
+	max-width: 960px;
+	text-align: left;
+}
+
+#banner > img{
+	margin-left: 2.5em;
+	padding-top: 0.3em; 
+}
+
+#nav_bar {
+    font-family: 'Montserrat', sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+	float: right; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+	padding-right: 10em; 
+}
+
+li {
+    float: left;
+	margin-right: 2em;
+    text-align: center;
+	color: white; 
+}
+
+li a{
+    display: block;
+    text-decoration: none;
+	color: white; 
+}
+
+li a:hover {
+    color: beige;
+}
+
+/** large image **/
+#hero {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+	margin-top: 3em;
+ 
+}
+
+#hero > img {
+    width: 100%;
+	
+}
