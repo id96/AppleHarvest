@@ -6,7 +6,7 @@
 	
 	<div id="nav_bar">
 		<ul>
-			<li> <a href="index.php">Home</a></li>
+			<li><a href="index.php">Home</a></li>
 			<li><a href="activities.php">Activities</a></li>
 			<li><a href="directions.php">Directions</a></li>
 		</ul>

@@ -15,7 +15,7 @@ body {
 }
 
 .content {
-  min-height: 100%;
+    min-height: 100%;
 }
 
 p {
@@ -28,7 +28,7 @@ p {
 
 #top {
     background-color:black;
-    height: 3em;
+    height: 8em;
     position: fixed;
     top: 0px;
     width: 100%;
@@ -49,6 +49,7 @@ p {
 	margin-left: 4em;
 	max-width: 960px;
 	text-align: left;
+    font-size: 2em;
 }
 
 #banner > img{
@@ -62,42 +63,43 @@ p {
     margin-left: auto;
     max-width: 960px;
 	float: right;
+    font-size: 2em;
 }
 
 /*img {
-   width: 100%;
-   height: auto;
+    width: 100%;
+    height: auto;
 }*/
 
 ul {
     list-style-type: none;
     margin: 0;
-	  padding-right: 10em;
+	padding-right: 10em;
 }
 
 li {
-  float: left;
-	margin-right: 2em;
-  text-align: center;
-	color: white;
+    float: left;
+    margin-right: 2em;
+    text-align: center;
+    color: white;
 }
 
 li a{
-  display: block;
-  text-decoration: none;
-  color: white;
+    display: block;
+    text-decoration: none;
+    color: white;
 }
 
 li a:hover {
-  color: beige;
+    color: beige;
 }
 
 /** large image **/
 #hero {
-  margin-right: auto;
-  margin-left: auto;
-  width: 100%;
-  margin-top: 3em;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    margin-top: 3em;
 }
 
 #hero > img {
@@ -105,32 +107,32 @@ li a:hover {
 }
 
 #use_bar {
-  left: 0px;
-  bottom: 0px;
-  height: 150px;
-  width: 100%;
-  background-color: #BF2C16;
-  text-align: center;
+    left: 0px;
+    bottom: 0px;
+    height: 150px;
+    width: 100%;
+    background-color: #BF2C16;
+    text-align: center;
 }
 
 #credits {
-  background-color: black;
-  left: 0px;
-  bottom: 0px;
-  height: 50px;
-  width: 100%;
-  text-align: center;
-  color: white;
-  font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    left: 0px;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #credits p {
-  margin-top: 0px;
-  padding-top: 15px;
+    margin-top: 0px;
+    padding-top: 15px;
 }
 
 .soc {
-  display: inline-table;
+    display: inline-table;
 }
 
 /**********************/
