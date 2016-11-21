@@ -14,9 +14,19 @@
 			<img src="images/apples-1285236_1920.jpg" alt="Banner">
 		</div>
 
-		<div class="content">
+		<div id="content">
 			<h2>About our Site</h2>
-		</div>
+			<!-- <div id="button_container">
+          <button id="prev" onclick="movePrevious()">Previous</button>
+          <button id="next" onclick="moveNext()">Next</button>
+      </div> <!-- end of button_container div --> -->
+
+			<!-- <div id="image_container">
+				<img id="display" src="images/Banner.jpg">
+			<!-- Media Credit : Andrew Halpern Flickr -->
+			 <!-- Media Credit : Hannah MacLean Flickr -->
+
+		</div> -->
 
       <!-- Media Credit : Andrew Halpern Flickr -->
 		<footer>

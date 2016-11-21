@@ -39,16 +39,16 @@ p {
     color: white;
     height: 1em;
     width: 100%;
-	  display: block;
-	  float: left;
+	display: block;
+	float: left;
 }
 
 #banner > h2 {
-  font-family: 'Montserrat', sans-serif;
-  margin-top: -1.5em;
-  margin-left: 4em;
-  max-width: 960px;
-  text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -1.5em;
+	margin-left: 4em;
+	max-width: 960px;
+	text-align: left;
 }
 
 #banner > img{
@@ -57,17 +57,22 @@ p {
 }
 
 #nav_bar {
-  font-family: 'Montserrat', sans-serif;
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 960px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
 	float: right;
 }
 
+/*img {
+   width: 100%;
+   height: auto;
+}*/
+
 ul {
-  list-style-type: none;
-  margin: 0;
-	padding-right: 10em;
+    list-style-type: none;
+    margin: 0;
+	  padding-right: 10em;
 }
 
 li {
@@ -89,10 +94,10 @@ li a:hover {
 
 /** large image **/
 #hero {
-    margin-right: auto;
-    margin-left: auto;
-    width: 100%;
-    margin-top: 3em;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  margin-top: 3em;
 }
 
 #hero > img {
