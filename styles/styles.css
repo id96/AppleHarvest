@@ -35,13 +35,13 @@ p {
     color: white;
     height: 1em;
     width: 100%;
-	display: block; 
-	float: left; 
+	display: block;
+	float: left;
 }
 
 #banner > h2 {
     font-family: 'Montserrat', sans-serif;
-    margin-top: -1.5em; 
+    margin-top: -1.5em;
 	margin-left: 4em;
 	max-width: 960px;
 	text-align: left;
@@ -49,7 +49,7 @@ p {
 
 #banner > img{
 	margin-left: 2.5em;
-	padding-top: 0.3em; 
+	padding-top: 0.3em;
 }
 
 #nav_bar {
@@ -57,31 +57,31 @@ p {
     margin-right: auto;
     margin-left: auto;
     max-width: 960px;
-	float: right; 
+	float: right;
 }
 
-img {
+/*img {
    width: 100%;
    height: auto;
-}
+}*/
 
 ul {
     list-style-type: none;
     margin: 0;
-	padding-right: 10em; 
+	padding-right: 10em;
 }
 
 li {
     float: left;
 	margin-right: 2em;
     text-align: center;
-	color: white; 
+	color: white;
 }
 
 li a{
     display: block;
     text-decoration: none;
-	color: white; 
+	color: white;
 }
 
 li a:hover {
@@ -94,10 +94,10 @@ li a:hover {
     margin-left: auto;
     width: 100%;
 	margin-top: 3em;
- 
+
 }
 
 #hero > img {
     width: 100%;
-	
+
 }
