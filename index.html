@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Apple Harvest</title>
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <script src="js/main.js"></script>
   </head>
   <body>
     <nav>
@@ -14,8 +15,18 @@
     </nav>
     <div id="container">
       <h2>About our Site</h2>
-      <img src="images/banner.jpg" alt="Banner">
+      <div id="button_container">
+          <button id="prev" onclick="movePrevious()">Previous</button> 
+          <button id="next" onclick="moveNext()">Next</button>
+      </div> <!-- end of button_container div -->
+
+      <div id="image_container">
+        <img id="display" src="images/Banner.jpg">
       <!-- Media Credit : Andrew Halpern Flickr -->
+       <!-- Media Credit : Hannah MacLean Flickr -->
+      
+    </div>
+
     <footer>
     </footer>
       
