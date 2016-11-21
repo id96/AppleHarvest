@@ -10,6 +10,9 @@
 	<body>
 		<?php include 'includes/nav_bar.php';?>
 
+		<div class="content">
+		</div>
+		
       <!-- Media Credit : Andrew Halpern Flickr -->
 		<footer>
 			<?php include 'includes/footer.php'; ?>
