@@ -9,11 +9,7 @@
 
 	<body>
 		<?php include 'includes/nav_bar.php';?>
-
-		<div id="hero">
-			<img src="images/apples-1285236_1920.jpg" alt="Banner">
-		</div>
-
+		
 		<div id="content">
 			<h2>About our Site</h2>
 			
