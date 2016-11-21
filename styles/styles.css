@@ -28,7 +28,7 @@ p {
 
 #top {
     background-color:black;
-    height: 8em;
+    height: 5em;
     position: fixed;
     top: 0px;
     width: 100%;
@@ -45,7 +45,7 @@ p {
 
 #banner > h2 {
     font-family: 'Montserrat', sans-serif;
-    margin-top: -1.5em;
+    margin-top: 1em;
 	margin-left: 4em;
 	max-width: 960px;
 	text-align: left;
