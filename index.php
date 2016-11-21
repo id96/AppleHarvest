@@ -19,7 +19,7 @@
 			<!-- <div id="button_container">
           <button id="prev" onclick="movePrevious()">Previous</button>
           <button id="next" onclick="moveNext()">Next</button>
-      </div> <!-- end of button_container div --> -->
+      </div> -->
 
 			<!-- <div id="image_container">
 				<img id="display" src="images/Banner.jpg">
