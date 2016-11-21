@@ -27,7 +27,7 @@ p {
 /**********************/
 
 #top {
-    background-color:black;
+    background-color: #3B1F07;
     height: 5em;
     position: fixed;
     top: 0px;
@@ -59,11 +59,11 @@ p {
 
 #nav_bar {
     font-family: 'Montserrat', sans-serif;
-    /* margin-right: auto;*/
-    margin-left: auto;
     max-width: 960px;
-	float: right;
-    font-size: 2em;
+	float: center;
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    text-align: center
 }
 
 /*img {
@@ -74,7 +74,7 @@ p {
 ul {
     list-style-type: none;
     margin: 0;
-	padding-right: 10em;
+    text-align: center;
 }
 
 li {
@@ -91,7 +91,7 @@ li a{
 }
 
 li a:hover {
-    color: beige;
+    color: #FF2E52;
 }
 
 /** large image **/
@@ -111,7 +111,7 @@ li a:hover {
     bottom: 0px;
     height: 150px;
     width: 100%;
-    background-color: #BF2C16;
+    background-color: #3B1F07;
     text-align: center;
 }
 
@@ -133,6 +133,11 @@ li a:hover {
 
 .soc {
     display: inline-table;
+}
+
+
+#youtube {
+    margin-left: 5em;
 }
 
 /**********************/

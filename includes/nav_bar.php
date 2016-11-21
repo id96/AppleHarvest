@@ -1,7 +1,7 @@
 <div id="top">
 	<div id="banner">
-		<img src="images/Apple-Basket.png">
-		<h2>Ithaca Apple Harvest Festival</h2>
+		<!-- <img src="images/Apple-Basket.png"> -->
+		<!-- <h2>Ithaca Apple Harvest Festival</h2> -->
 	</div>
 
 	<div id="nav_bar">
