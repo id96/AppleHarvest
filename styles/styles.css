@@ -26,44 +26,18 @@ p {
 /* styling by section */
 /**********************/
 
-#top {
-    background-color: #3B1F07;
-    height: 5em;
-    position: fixed;
-    top: 0px;
-    width: 100%;
-	z-index: 1;
-}
-
-#banner {
-    color: white;
-    height: 1em;
-    width: 100%;
-	display: block;
-	float: left;
-}
-
-#banner > h2 {
-    font-family: 'Montserrat', sans-serif;
-    margin-top: -1em;
-	margin-left: 4em;
-	max-width: 960px;
-	text-align: left;
-    font-size: 2em;
-}
-
-#banner > img{
-	margin-left: 2.5em;
-	padding-top: 0.3em;
-}
-
 #nav_bar {
     font-family: 'Montserrat', sans-serif;
     max-width: 960px;
 	float: center;
     font-size: 1.5em;
-    margin-top: 0.5em;
-    text-align: center
+    text-align: center;
+    position: fixed;
+    background-color: #3B1F07;
+    top: 0px;
+    width: 100%;
+	z-index: 1;
+    height: 5em;
 }
 
 /*img {
