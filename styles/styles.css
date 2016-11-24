@@ -115,7 +115,7 @@ p {
 
 #icon {
     margin-left: -14em;
-	margin-top:-4em; 
+	margin-top:-4.5em; 
 }
 
 #content {
@@ -132,7 +132,8 @@ p {
 iframe{
 	margin-top: 2em; 
 	margin-bottom: 2em; 
-	align-content: center; 
+	margin-left: auto; 
+	margin-right: auto; 
 }
 
 /** footer styling **/
