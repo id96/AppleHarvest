@@ -135,6 +135,16 @@ iframe{
 	margin-left: auto; 
 	margin-right: auto; 
 }
+/**direction page styling**/
+#directionimg > img{
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+#googlemap > iframe{
+    margin-left: 10%;
+}
 
 /** footer styling **/
 #use_bar {
@@ -165,6 +175,7 @@ iframe{
 .soc {
   display: inline-table;
 }
+
 
 /**********************/
 /* footer icon styling*/
