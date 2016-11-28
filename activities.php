@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<title>Apple Harvest</title>
 		<link rel="stylesheet" type="text/css" href="styles/styles.css">
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway">
 		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
 	</head>
 
