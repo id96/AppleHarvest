@@ -11,9 +11,17 @@
 		<?php include 'includes/nav_bar.php';?>
 
 		<div class="content">
+		<h2>Sample Vendors</h2>
+			<ul>
+				<li>Laughing Goat Fiber Farm</li>
+				<li>Wineries</li>
+				<li>Artisans with Crafts</li>
+			</ul>
+		
+		
 		</div>
 		
-      <!-- Media Credit : Andrew Halpern Flickr -->
+      
 		<footer>
 			<?php include 'includes/footer.php'; ?>
 		</footer>
