@@ -10,7 +10,7 @@
 
 	<body>
 		<?php include 'includes/nav_bar.php';?>
-		
+
 		<div id="event_container">
 				<ul>
 					<li>
@@ -53,17 +53,41 @@
 					</li>
 				</ul>
 			</div><!-- end of _event_container div -->
-		
+
 		<div class="content">
-	
+
 			<div id="spacer"></div>
 			<div id="description">
 				<h1>Ithaca's premier event of the Fall, Apple Harvest Festival is a three day celebration of food, fun, and apples!</h1>
 				<p>The 34th Annual Great Downtown Ithaca Apple Harvest Festival by Presented Tompkins Trust Company is set to take place September 30 - October 2, 2016.  The 2016 Apple Harvest Festival hosts plenty of apples, local produce, fresh baked goods, family entertainment at every turn, games, rides, prizes and live performances on two stages. Apple Harvest Festival is a great introduction to the rich farm and artist community of Ithaca.  First time visitors can witness a variety of wonderful local entertainment while also visiting the historical outdoor pedestrian shopping mall, The Ithaca Commons.  The pedestrian mall is the epicenter of the festival and the gateway to a nostalgic journey to harvest season fun.</p>
 			</div>
-		
+
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/s9zZR99jfkU" frameborder="0" allowfullscreen></iframe>
-			
+
+			<!-- parition -->
+			<hr>
+
+			<div class="section">
+				<img class="section_image" src="images/apple.jpg" />
+				<div class="section_content right">
+					<h1>Lorem Ipsum</h1>
+					<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+
+			<hr>
+
+			<div class="section">
+				<div class="section_content left just">
+					<h1>Lorem Ipsum</h1>
+					<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<img class="section_image" src="images/apple.jpg" />
+
+			</div>
+
+
+
 		</div> <!-- end of content div -->
 
 		<footer>

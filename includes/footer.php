@@ -1,11 +1,11 @@
 <div id="footer">
   <div id="use_bar">
     <ul class="soc">
-        <li><a class="soc-twitter" href="http://google.com"></a></li>
-        <li><a class="soc-facebook" href="#"></a></li>
-        <li><a class="soc-flickr" href="#"></a></li>
-        <li><a class="soc-youtube" href="#"></a></li>
-        <li><a class="soc-mail soc-icon-last" href="#"></a></li>
+        <li><a class="soc-twitter" target="_blank" href="https://twitter.com/downtownithaca"></a></li>
+        <li><a class="soc-facebook" target="_blank" href="https://www.facebook.com/downtownithaca"></a></li>
+        <li><a class="soc-flickr" target="_blank" href="http://www.downtownithaca.com/ithaca-events/Apple%20Harvest%20Festival%20Presented%20by%20Tompkins%20Trust#"></a></li>
+        <li><a class="soc-youtube" target="_blank" href="https://www.youtube.com/user/downtownithaca"></a></li>
+        <li><a class="soc-mail soc-icon-last" target="_blank" href="http://www.downtownithaca.com/ithaca-events/Apple%20Harvest%20Festival%20Presented%20by%20Tompkins%20Trust#"></a></li>
     </ul>
     <p class="footStyle">Ithaca Apple Harvest Festival</p>
   </div>

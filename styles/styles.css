@@ -138,7 +138,10 @@ iframe{
 	margin-right: auto;
 }
 
-/**direction page styling**/
+/**********************/
+/* Direction styling  */
+/**********************/
+
 #directionimg > img{
     margin: auto;
     max-width: 100%;
@@ -149,7 +152,10 @@ iframe{
     margin-left: 10%;
 }
 
-/** footer styling **/
+/**********************/
+/* footer styling     */
+/**********************/
+
 #use_bar {
   left: 0px;
   bottom: 0px;
@@ -174,15 +180,6 @@ iframe{
   margin-top: 0px;
   padding-top: 15px;
 }
-
-.soc {
-  display: inline-table;
-}
-
-
-/**********************/
-/* footer icon styling*/
-/**********************/
 
 @font-face {
     font-family: 'si';
@@ -209,6 +206,7 @@ iframe{
 }
 
 .soc {
+    display: inline-table;
     overflow:hidden;
     margin:0; padding:0;
     list-style:none;
@@ -304,4 +302,44 @@ iframe{
 }
 .soc-mail:before {
     content:'\e01f';
+}
+
+/******************************/
+/* Content section styling    */
+/******************************/
+
+.section {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.section_image {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: inline-block;
+  height: 60%;
+}
+
+.section_content {
+  padding-top: 70px;
+  display: inline-block;
+}
+
+.left {
+  /*padding: 30px;*/
+  float: left;
+  width: 50%;
+  /*width: 50px;*/
+  /*left: 10px;*/
+}
+
+.right {
+  float: right;
+  width: 50%;
+  /*right: 0px;*/
+}
+
+.just {
+  padding-right: 40px;
+  text-align: right;
 }
