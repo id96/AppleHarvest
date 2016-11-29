@@ -62,7 +62,7 @@
 				<p>The 34th Annual Great Downtown Ithaca Apple Harvest Festival by Presented Tompkins Trust Company is set to take place September 30 - October 2, 2016.  The 2016 Apple Harvest Festival hosts plenty of apples, local produce, fresh baked goods, family entertainment at every turn, games, rides, prizes and live performances on two stages. Apple Harvest Festival is a great introduction to the rich farm and artist community of Ithaca.  First time visitors can witness a variety of wonderful local entertainment while also visiting the historical outdoor pedestrian shopping mall, The Ithaca Commons.  The pedestrian mall is the epicenter of the festival and the gateway to a nostalgic journey to harvest season fun.</p>
 			</div>
 
-			<iframe src="https://www.youtube.com/embed/s9zZR99jfkU" allowfullscreen></iframe>
+			<!-- <iframe src="https://www.youtube.com/embed/s9zZR99jfkU" allowfullscreen></iframe> -->
 
 			<!-- parition -->
 			<hr>

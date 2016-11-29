@@ -168,14 +168,12 @@ p {
     font-family: 'Montserrat', sans-serif;
     background-color: #008CBA;
     color: white;
-    border: 3px solid #008CBA;
 }
 #overviewblue{
     font-size: 1em;
     font-family: 'Montserrat', sans-serif;
     background-color: #008CBA;
     color: white;
-    border: 3px solid #008CBA;
 }
 
 #brown10{
@@ -183,35 +181,31 @@ p {
     font-family: 'Montserrat', sans-serif;
     background-color: #4A1A04;
     color: white;
-    border: 3px solid #4A1A04;
 }
 #red11{
     font-size: 1em;
     font-family: 'Montserrat', sans-serif;
     background-color: #f44336;
     color: black;
-    border: 3px solid #f44336;
 }
 #yellow15{
     font-size: 1em;
     font-family: 'Montserrat', sans-serif;
     background-color: #FFB428;
     color: black;
-    border: 3px solid #FFB428;
 }
 #green17{
     font-size: 1em;
     font-family: 'Montserrat', sans-serif;
     background-color: #4C5225;
     color: white;
-    border: 3px solid #4C5225;
 }
 
 #googlemap > iframe{
     margin:auto;
     width: 100%;
     height: 450px;
-    style: border:0;
+    border: 0;
 }
 
 #googlemap {
@@ -276,12 +270,12 @@ p {
 
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
+/*@media screen and (-webkit-min-device-pixel-ratio:0) {
     @font-face {
         font-family:si;
         src: url(styles/social_icons/socicon.svg) format(svg);
     }
-}
+}*/
 
 .footStyle {
   font-family: 'Montserrat', sans-serif;
@@ -302,8 +296,6 @@ p {
 
 .soc li {
     display:inline-block;
-    *display:inline;
-    zoom:1;
 }
 
 .soc li a {
@@ -343,7 +335,6 @@ p {
     border-radius: 100px;
     margin-right: 35px;
     color: #ffffff;
-    background-color: none;
 }
 
 .soc a:hover {
