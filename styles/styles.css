@@ -259,6 +259,7 @@ p {
 }
 
 @font-face {
+    /*Font for icons taken from Socion: http://www.socicon.com/*/
     font-family: 'si';
     src: url('social_icons/socicon.eot');
     src: url('social_icons/socicon.eot?#iefix') format('embedded-opentype'),
@@ -347,6 +348,7 @@ p {
     margin:0 !important;
 }
 
+/* [contents] are the unicode characters from the socion font stylesheet*/
 .soc-twitter {
     background-color: #4da7de;
 }
@@ -400,17 +402,13 @@ p {
 }
 
 .left {
-  /*padding: 30px;*/
   float: left;
   width: 50%;
-  /*width: 50px;*/
-  /*left: 10px;*/
 }
 
 .right {
   float: right;
   width: 50%;
-  /*right: 0px;*/
 }
 
 .just {

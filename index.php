@@ -23,7 +23,7 @@
 							<img src="images/date_icon.png" alt="date">
 							<!-- Media Credit : Carrie Huang -->
 						</div>
-					</div><!-- end of _event_date div -->
+					</div>
 					</li>
 
 					<li>
@@ -36,7 +36,7 @@
 							<img src="images/location_icon.png" alt="location">
 							<!-- Media Credit : Carrie Huang -->
 						</div>
-					</div><!-- end of _event_date div -->
+					</div>
 					</li>
 
 					<li>
@@ -49,10 +49,10 @@
 							<img src="images/vendors_icon.png" alt="vendors">
 							<!-- Media Credit : Carrie Huang, altered Michael Teitelbaum, Classic Chevy -->
 						</div>
-					</div><!-- end of _event_date div -->
+					</div>
 					</li>
 				</ul>
-			</div><!-- end of _event_container div -->
+			</div>
 
 		<div class="content">
 
@@ -69,6 +69,7 @@
 
 			<div class="section">
 				<img class="section_image" src="images/apple.jpg" alt="apple" />
+				<!-- Media Credit: Andrew Halpern -->
 				<div class="section_content right">
 					<h1>Lorem Ipsum</h1>
 					<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -83,10 +84,10 @@
 					<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</div>
 				<img class="section_image" src="images/apple.jpg" alt="apples" />
-
+				<!-- Media Credit: Andrew Halpern -->
 			</div>
 
-		</div> <!-- end of content div -->
+		</div>
 
 		<footer>
 			<?php include 'includes/footer.php'; ?>
