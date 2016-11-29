@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="zxx">
 	<head>
 		<meta charset="utf-8">
 		<title>Apple Harvest</title>
@@ -22,9 +22,9 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</div>
 		</div>
-	
+
 		<hr>
-	
+
 		<div class="section">
 			<div class="section_content left just">
 				<h1>Crafts</h1>
@@ -33,13 +33,13 @@
 			</div>
 			<img class="activity_image" src="images/facepainting.jpg" alt='Face Painting'/>
 			<!-- Media Credit: Photo by Alisha Tamarchenko -->
-	
+
 		</div>
-		
+
 		<hr>
 
 		<div class="section">
-			<img class="activity_image" src="images/fallcreekbrass.jpg"/>
+			<img class="activity_image" src="images/fallcreekbrass.jpg" alt="actiivty image"/>
 			<!-- Media Credit: Photo by Alisha Tamarchenko-->
 			<div class="section_content right">
 				<h1>Music</h1>
@@ -47,8 +47,8 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</div>
 		</div>
-		
-      
+
+
 		<footer>
 			<?php include 'includes/footer.php'; ?>
 		</footer>

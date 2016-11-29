@@ -94,26 +94,26 @@ p {
     text-decoration: none;
 }
 
-#event_info {
+.event_info {
 	width: 24em;
 }
 
-#info{
+.info{
 	margin-left: 5em;
 
 }
 
-#info > h3{
+.info > h3{
 	margin: 0.4em;
 	text-align: center;
 }
 
-#info > h4{
+.info > h4{
 	margin: 0.4em;
 	text-align: center;
 }
 
-#icon {
+.icon {
     margin-left: -14em;
 	margin-top:-4.5em;
 }
@@ -130,12 +130,14 @@ p {
 	text-align: center;
 }
 
-iframe{
+.content > iframe{
 	display: block;
-    margin-top: 2em;
+  margin-top: 2em;
 	margin-bottom: 2em;
 	margin-left: auto;
 	margin-right: auto;
+  width: 560px;
+  height: 315px;
 }
 
 /**********************/
@@ -149,13 +151,14 @@ iframe{
 
 #directionimg > img{
     margin: auto;
+    padding-bottom: 1.5em;
     max-width: 100%;
     height: auto;
 }
 #directionbus > img{
     margin: auto;
     padding-top: 2em;
-    padding-bottom: 3em;
+    padding-bottom: 2em;
     max-width: 100%;
     height: auto;
 }
@@ -163,50 +166,56 @@ iframe{
 #sendbutton{
     font-size: 1em;
     font-family: 'Montserrat', sans-serif;
-    background-color: #008CBA; 
+    background-color: #008CBA;
     color: white;
-    border: 3px solid #008CBA; 
+    border: 3px solid #008CBA;
 }
 #overviewblue{
     font-size: 1em;
     font-family: 'Montserrat', sans-serif;
-    background-color: #008CBA; 
+    background-color: #008CBA;
     color: white;
-    border: 3px solid #008CBA; 
+    border: 3px solid #008CBA;
 }
 
 #brown10{
     font-size: 1em;
     font-family: 'Montserrat', sans-serif;
-    background-color: #4A1A04; 
+    background-color: #4A1A04;
     color: white;
     border: 3px solid #4A1A04;
 }
 #red11{
     font-size: 1em;
     font-family: 'Montserrat', sans-serif;
-    background-color: #f44336; 
+    background-color: #f44336;
     color: black;
-    border: 3px solid #f44336; 
+    border: 3px solid #f44336;
 }
 #yellow15{
     font-size: 1em;
     font-family: 'Montserrat', sans-serif;
-    background-color: #FFB428; 
+    background-color: #FFB428;
     color: black;
-    border: 3px solid #FFB428; 
+    border: 3px solid #FFB428;
 }
 #green17{
     font-size: 1em;
     font-family: 'Montserrat', sans-serif;
-    background-color: #4C5225; 
+    background-color: #4C5225;
     color: white;
-    border: 3px solid #4C5225; 
+    border: 3px solid #4C5225;
 }
 
 #googlemap > iframe{
     margin:auto;
-    padding-bottom: 2em;
+    width: 100%;
+    height: 450px;
+    style: border:0;
+}
+
+#googlemap {
+  padding-bottom: 2em;
 }
 
 /**********************/
