@@ -35,26 +35,31 @@ function moveNext() {
 function swapImg() {
     var imagename = 'images/routemap.jpg'
     document.getElementById('enlarge').src=imagename;
+    //Media Credit : TCAT Website
 }
 
 function swapImg10() {
     var imagename = 'images/route10.jpg'
     document.getElementById('enlarge').src=imagename;
+    //Media Credit : TCAT Website
 }
 
 function swapImg11() {
     var imagename = 'images/route11.jpg'
     document.getElementById('enlarge').src=imagename;
+    //Media Credit : TCAT Website
 }
 
 function swapImg15() {
     var imagename = 'images/route15.jpg'
     document.getElementById('enlarge').src=imagename;
+    //Media Credit : TCAT Website
 }
 
 function swapImg17() {
     var imagename = 'images/route17.jpg'
     document.getElementById('enlarge').src=imagename;
+    //Media Credit : TCAT Website
 }
 
 
