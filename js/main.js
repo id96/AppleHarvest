@@ -18,9 +18,9 @@ function movePrevious() {
     } else {
         index -= 1;
     }
-    var imagename = 'images/' + pix[index] + '.jpg'
-    document.getElementById('display').src=imagename;
-    }
+    var imagename = 'images/' + pix[index] + '.jpg';
+    // document.getElementById('display').src=imagename;
+}
 
 function moveNext() {
     if (index < pix.length-1) {
@@ -28,38 +28,37 @@ function moveNext() {
     } else {
         index = 0;
     }
-    var imagename = 'images/' + pix[index] + '.jpg'
-    document.getElementById('display').src=imagename;
-    }
+    var imagename = 'images/' + pix[index] + '.jpg';
+    // document.getElementById('display').src=imagename;
+}
 
 function swapImg() {
     var imagename = 'images/routemap.jpg'
     document.getElementById('enlarge').src=imagename;
-    }
+}
 
 function swapImg10() {
     var imagename = 'images/route10.jpg'
     document.getElementById('enlarge').src=imagename;
-    }
+}
 
 function swapImg11() {
     var imagename = 'images/route11.jpg'
     document.getElementById('enlarge').src=imagename;
-    }
+}
 
 function swapImg15() {
     var imagename = 'images/route15.jpg'
     document.getElementById('enlarge').src=imagename;
-    }
+}
 
 function swapImg17() {
     var imagename = 'images/route17.jpg'
     document.getElementById('enlarge').src=imagename;
-    }
+}
 
 
 //I want to make it slideshow but have not yet succeeded
 window.onload = function myStartFunction() {
     roll = setTimeout(function(){moveNext();}, 1000);
 }
-

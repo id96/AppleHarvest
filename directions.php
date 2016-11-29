@@ -11,17 +11,17 @@
 
 	<body>
 		<?php include 'includes/nav_bar.php';?>
-		
+
 
 		<div class="content">
-		
+
 			<p class="mapdescription">Vistors' Map</p>
 			<button id="sendbutton" onclick="window.location.href='mailto:name@email.com'">Send the Map to your email</button>
 			<div id="directionimg">
-				<img src="images/overview.jpg">
+			<img src="images/overview.jpg">
 				<!-- Media Credit : Downtown Ithaca Website -->
 			</div>
-			
+
 			<!-- parition -->
 			<hr>
 
@@ -36,7 +36,7 @@
 			 	<button id="green17"onclick="swapImg17()">Route17</button>
 			 	<!-- Media Credit : TCAT Website -->
      		 </span> <!-- end of button_container div -->
-			
+
 			<div id="directionbus">
 				<img id="enlarge" src="images/routemap.jpg">
 				<!-- Media Credit : TCAT Website -->
@@ -52,7 +52,7 @@
 				<!-- Media Credit : Google Map-->
 			</div>
 
-			
+
 		</div>
 
 		<!-- parition -->
