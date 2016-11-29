@@ -217,6 +217,15 @@ iframe{
     text-align: center;
 }
 
+.activity_image {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: inline-block;
+    height: 267px;
+    width: 400px;
+}
+
+
 /**********************/
 /* footer styling     */
 /**********************/
