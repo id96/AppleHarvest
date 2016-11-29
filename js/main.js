@@ -7,7 +7,8 @@
 //would replace and resize the images later
 var pix = ["apples-1285236_1920", "banner", "eatlikenoone", "hannah_applefest"];
 var index = 0;
-var main_image = document.getElementById("display");
+var main_image = document.getElementById("enlarge");
+//var change_name = "routemap";
 var roll;
 
 // functions
@@ -30,6 +31,32 @@ function moveNext() {
     var imagename = 'images/' + pix[index] + '.jpg'
     document.getElementById('display').src=imagename;
     }
+
+function swapImg() {
+    var imagename = 'images/routemap.jpg'
+    document.getElementById('enlarge').src=imagename;
+    }
+
+function swapImg10() {
+    var imagename = 'images/route10.jpg'
+    document.getElementById('enlarge').src=imagename;
+    }
+
+function swapImg11() {
+    var imagename = 'images/route11.jpg'
+    document.getElementById('enlarge').src=imagename;
+    }
+
+function swapImg15() {
+    var imagename = 'images/route15.jpg'
+    document.getElementById('enlarge').src=imagename;
+    }
+
+function swapImg17() {
+    var imagename = 'images/route17.jpg'
+    document.getElementById('enlarge').src=imagename;
+    }
+
 
 //I want to make it slideshow but have not yet succeeded
 window.onload = function myStartFunction() {
