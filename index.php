@@ -63,8 +63,9 @@
 			</div>
 
 			<iframe src="https://www.youtube.com/embed/s9zZR99jfkU" allowfullscreen></iframe>
+			<!-- Media Credit: https://www.youtube.com/watch?v=s9zZR99jfkU -->
 
-			<!-- parition -->
+			<!-- partition -->
 			<hr>
 
 			<div class="section">
