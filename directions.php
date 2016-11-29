@@ -18,7 +18,7 @@
 			<p class="mapdescription">Vistors' Map</p>
 			<button id="sendbutton" onclick="window.location.href='mailto:name@email.com'">Send the Map to your email</button>
 			<div id="directionimg">
-				<img src="images/AppleMap2016.jpg">
+				<img src="images/overview.jpg">
 				<!-- Media Credit : Downtown Ithaca Website -->
 			</div>
 			
