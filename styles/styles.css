@@ -132,7 +132,7 @@ p {
 
 iframe{
 	display: block;
-    margin-top: 2em;
+  margin-top: 2em;
 	margin-bottom: 2em;
 	margin-left: auto;
 	margin-right: auto;
@@ -149,13 +149,14 @@ iframe{
 
 #directionimg > img{
     margin: auto;
+    padding-bottom: 1.5em;
     max-width: 100%;
     height: auto;
 }
 #directionbus > img{
     margin: auto;
     padding-top: 2em;
-    padding-bottom: 3em;
+    padding-bottom: 2em;
     max-width: 100%;
     height: auto;
 }

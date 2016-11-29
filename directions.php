@@ -41,6 +41,7 @@
 				<img id="enlarge" src="images/routemap.jpg">
 				<!-- Media Credit : TCAT Website -->
 			</div>
+			<span>Route Schedules and Maps Taken From TCAT's <a href="http://https://www.tcatbus.com/ride/2015-ride-guide/" target="_blank">Ride Guide</a>!</span>
 
 			<!-- parition -->
 			<hr>
@@ -48,6 +49,7 @@
 			<p class="mapdescription">Ithaca Commons on Google Map</p>
 			<div id="googlemap">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2944.443033500038!2d-76.49993280325015!3d42.439588879181684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d0819c8632d9e5%3A0x7e9b07ab2aa65eb6!2sIthaca+Commons!5e0!3m2!1sen!2sus!4v1480029466179" width=100% height="450" frameborder="60" style="border:0" allowfullscreen></iframe>
+				<!-- Media Credit : Google Map-->
 			</div>
 
 			
