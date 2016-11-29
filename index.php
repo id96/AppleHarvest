@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<title>Apple Harvest</title>
@@ -14,39 +14,39 @@
 		<div id="event_container">
 				<ul>
 					<li>
-					<div id="event_info">
-						<div id="info">
+					<div class="event_info">
+						<div class="info">
 							<h3>Sept 30: 12PM-6PM </h3>
 							<h3>Oct 1-2: 10AM-6PM</h3>
 						</div>
-						<div id="icon">
-							<img src="images/date_icon.png">
+						<div class="icon">
+							<img src="images/date_icon.png" alt="date">
 							<!-- Media Credit : Carrie Huang -->
 						</div>
 					</div><!-- end of _event_date div -->
 					</li>
 
 					<li>
-					<div id="event_info">
-						<div id="info">
+					<div class="event_info">
+						<div class="info">
 							<h3>Ithaca Commons</h3>
 							<h4>171 E M.L.K. Jr. St Ithaca, NY </h4>
 						</div>
-						<div id="icon">
-							<img src="images/location_icon.png">
+						<div class="icon">
+							<img src="images/location_icon.png" alt="location">
 							<!-- Media Credit : Carrie Huang -->
 						</div>
 					</div><!-- end of _event_date div -->
 					</li>
 
 					<li>
-					<div id="event_info">
-						<div id="info">
+					<div class="event_info">
+						<div class="info">
 							<h3>100+ Vendors</h3>
 							<h4>Food, gifts, performances</h4>
 						</div>
-						<div id="icon">
-							<img src="images/vendors_icon.png">
+						<div class="icon">
+							<img src="images/vendors_icon.png" alt="vendors">
 							<!-- Media Credit : Carrie Huang, altered Michael Teitelbaum, Classic Chevy -->
 						</div>
 					</div><!-- end of _event_date div -->
@@ -62,13 +62,13 @@
 				<p>The 34th Annual Great Downtown Ithaca Apple Harvest Festival by Presented Tompkins Trust Company is set to take place September 30 - October 2, 2016.  The 2016 Apple Harvest Festival hosts plenty of apples, local produce, fresh baked goods, family entertainment at every turn, games, rides, prizes and live performances on two stages. Apple Harvest Festival is a great introduction to the rich farm and artist community of Ithaca.  First time visitors can witness a variety of wonderful local entertainment while also visiting the historical outdoor pedestrian shopping mall, The Ithaca Commons.  The pedestrian mall is the epicenter of the festival and the gateway to a nostalgic journey to harvest season fun.</p>
 			</div>
 
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/s9zZR99jfkU" frameborder="0" allowfullscreen></iframe>
+			<iframe src="https://www.youtube.com/embed/s9zZR99jfkU" allowfullscreen></iframe>
 
 			<!-- parition -->
 			<hr>
 
 			<div class="section">
-				<img class="section_image" src="images/apple.jpg" />
+				<img class="section_image" src="images/apple.jpg" alt="apple" />
 				<div class="section_content right">
 					<h1>Lorem Ipsum</h1>
 					<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -82,7 +82,7 @@
 					<h1>Lorem Ipsum</h1>
 					<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</div>
-				<img class="section_image" src="images/apple.jpg" />
+				<img class="section_image" src="images/apple.jpg" alt="apples" />
 
 			</div>
 
