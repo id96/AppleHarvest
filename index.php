@@ -71,7 +71,7 @@
 				<img class="section_image" src="images/apple.jpg" alt="apple" />
 				<!-- Media Credit: Andrew Halpern -->
 				<div class="section_content right">
-					<h1>Lorem Ipsum</h1>
+					<h1>Activities</h1>
 					<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</div>
 			</div>
@@ -80,7 +80,7 @@
 
 			<div class="section">
 				<div class="section_content left just">
-					<h1>Lorem Ipsum</h1>
+					<h1>Directions</h1>
 					<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</div>
 				<img class="section_image" src="images/apple.jpg" alt="apples" />
