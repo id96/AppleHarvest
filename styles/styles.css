@@ -163,6 +163,12 @@ p {
     height: auto;
 }
 
+.button_container button:hover {
+    z-index: 2;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
 #sendbutton{
     font-size: 1em;
     font-family: 'Montserrat', sans-serif;
@@ -211,9 +217,24 @@ p {
 #googlemap {
   padding-bottom: 2em;
 }
-
 /**********************/
-/* Direction styling  */
+/* Gallery styling  */
+/**********************/
+
+#image_slide > img{
+    margin: auto;
+    padding-top: 4em;
+    padding-bottom: 2em;
+    max-width: 100%;
+    height: auto;
+}
+
+.mySlides{
+  width: 100%;
+  display: none;
+}
+/**********************/
+/* Activities styling  */
 /**********************/
 
 #title {

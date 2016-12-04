@@ -16,7 +16,9 @@
 		<div class="content">
 
 			<p class="mapdescription">Vistors' Map</p>
-			<button id="sendbutton" onclick="window.location.href='mailto:name@email.com'">Send the Map to your email</button>
+			<div class="button_container">
+				<button id="sendbutton" onclick="window.location.href='mailto:name@email.com'">Send the Map to your email</button>
+			</div>
 			<div id="directionimg">
 			<img src="images/overview.jpg" alt="overview">
 				<!-- Media Credit : Downtown Ithaca Website -->

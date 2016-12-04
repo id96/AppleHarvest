@@ -6,16 +6,20 @@
 		<link rel="stylesheet" type="text/css" href="styles/styles.css">
 		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway">
 		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
+		<script src="js/main.js"></script>
 	</head>
 
 	<body>
 		<?php include 'includes/nav_bar.php';?>
-
+		<div id="hero">
+			<img src="images/apple-banner.jpg" alt="Banner">
+			<!-- Media Credit : Couleur pixabay -->
+		</div>
+		
 		<h1 id='title'>What is there to do at Apple Fest?</h1>
 
 		<div class="section">
 			<img class="activity_image" src="images/eatlikenoone.jpg" alt='Eat Like No One is Watching'/>
-			<!-- Media Credit: Andrew Halpern -->
 			<div class="section_content right">
 				<h1>Food Vendors</h1>
 				<p>List of Food: Taste of Thai, Food Trucks</p>
