@@ -510,6 +510,18 @@ p {
     }
 }
 
+@media screen and (max-width: 1000px) {
+    .activity_image {
+        width: 75%;
+        margin-top: 10%;
+    }
+    
+    .activity_imageMUSIC {
+        width: 75%;
+        margin-top: 40%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     #banner > h2 {
 		padding-left: 1em;
@@ -548,7 +560,7 @@ p {
   .activity_image {
       display: none;
   }
-  .activity_image_special {
+  .activity_imageMUSIC {
       display: none;
   }
 
@@ -641,4 +653,6 @@ p {
 	#usebar {
 		bottom: 0px;
 	}
+    
+    
 }
