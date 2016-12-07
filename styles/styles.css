@@ -522,7 +522,7 @@ p {
 }
 
 /**********************/
-/* responsive styling*/
+/* responsive styling       */
 /**********************/
 
 @media screen and (max-width: 1200px) {
@@ -662,6 +662,6 @@ p {
 
 	#usebar{
 		bottom: 0px;
+        
 	}
-
 }
