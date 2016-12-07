@@ -18,7 +18,7 @@
 				<button id="slide_next" onclick="moveNext()">Next</button>
 
 			</div>
-			<img id="slide_display" src="images/IV-AppleFest001 (Photo by Hannah MacLean).jpg">
+			<img id="slide_display" src="images/IV-AppleFest001(PhotobyHannahMacLean).jpg" alt="bleh">
 		</div>
 
 

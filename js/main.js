@@ -5,9 +5,9 @@
 */
 //just try with the images we have right now and two images I found on flickr,
 //would replace and resize the images later
-var pix = ["IV-AppleFest001 (Photo by Hannah MacLean)",
+var pix = ["IV-AppleFest001(PhotobyHannahMacLean)",
 "IV-AppleFest003 (Photo by Alisha Tamarchenko)", "IV-AppleFest004（Photo by Alisha Tamarchenko",
-"IV-AppleFest026 (Photo by Alisha Tamarchenko)", "IV-AppleFest017 (Photo by Alex Anderson)", 
+"IV-AppleFest026 (Photo by Alisha Tamarchenko)", "IV-AppleFest017 (Photo by Alex Anderson)",
 "IV-AppleFest009 (Photo by Alisha Tamarchenko)", "IV-AppleFest010 (Photo by Alisha Tamarchenko)"
 ];
 var index = 0;
@@ -67,6 +67,3 @@ function swapImg17() {
     document.getElementById('enlarge').src=imagename;
     //Media Credit : TCAT Website
 }
-
-
-
