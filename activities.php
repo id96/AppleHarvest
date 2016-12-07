@@ -19,8 +19,7 @@
 			<div class="section_content right">
 				<h1>Food Vendors</h1>
 				<p>List of Food: Taste of Thai, Food Trucks</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div>
+				<p>Over 100 vendors will be selling unique apple varieties, hot apple cider donuts, kettle corn, local farm fresh baked goods and a multitude of around the world specialties. Local farmers are on site selling everything from tasty apple beverages to local pumpkins and of course, apples, apples and more apples. Wineries and cideries have regional beverages available for tasting and purchase.</p>
 		</div>
 
 		<hr>
@@ -29,7 +28,7 @@
 			<div class="section_content left just">
 				<h1>Crafts</h1>
 				<p>Face Painting</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Kids can visit with the goats and learn how fiber is made with Laughing Goat Fiber Farm.</p>
 			</div>
 			<img class="activity_image" src="images/facepainting.jpg" alt='Face Painting'/>
 			<!-- Media Credit: Photo by Alisha Tamarchenko -->
@@ -44,7 +43,23 @@
 			<div class="section_content right">
 				<h1>Music</h1>
 				<p>Live Performances and Singing</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>West State Street Performances</p>
+				<p>Friday:</p>
+					<ul>
+						<li>Hilby The Skinny German Juggle Boy 12:30 and 4:45pm</li>
+					</ul>
+				<p>Saturday:</p>
+					<ul>
+						<li>12pm- Zajal the Sugarplum Fairy</li>
+						<li>1pm- The Next Jenneration</li>
+						<li>3pm- The Strong Woman Show</li>
+						<li>4:30- IC Circus</li>
+					</ul>
+				<p>Sunday:</p>
+					<ul>
+						<li>12:30pm Matan Presberg - Juggler</li>
+						<li>3pm- Hula Hut Polynesian Dance</li>
+					</ul>
 			</div>
 		</div>
 
