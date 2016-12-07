@@ -42,6 +42,7 @@
 
 			<div id="directionbus">
 				<img id="enlarge" src="images/routemap.jpg" alt="routemap">
+				<img class="long" src="images/routemap_long.jpg" alt="routemap">
 				<!-- Media Credit : TCAT Website -->
 			</div>
 			<p class="bold">Route Schedules and Maps Taken From TCAT's <a href="http://https://www.tcatbus.com/ride/2015-ride-guide/" target="_blank">Ride Guide</a>!</p>
