@@ -11,13 +11,14 @@
 
 	<body>
 		<?php include 'includes/nav_bar.php';?>
-
-		<div id="slide_w3" onload="showDivs(1)">
+		<p id="gallery_title">PHOTO GALLERY!</p>
+		<div id="slide">
 			<div class="button_container">
-				<button id="slide_previous" onclick="movePrevious()"></button>
-				<button id="slide_next" onclick="moveNext()"></button>
+				<button id="slide_previous" onclick="movePrevious()">Previous</button>
+				<button id="slide_next" onclick="moveNext()">Next</button>
+
 			</div>
-			<img class="slide_display" src="IV-AppleFest001 (Photo by Hannah MacLean).jpg">
+			<img id="slide_display" src="images/IV-AppleFest001 (Photo by Hannah MacLean).jpg">
 		</div>
 
 
