@@ -233,8 +233,13 @@ p {
     text-align: center;
 }
 
+/**********************/
+/* acivities styling     */
+/**********************/
 
-
+.day {
+    font-style: italic;
+}
 
 /**********************/
 /* footer styling     */
@@ -418,8 +423,8 @@ p {
 }
 
 .activity_image_special {
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 18%;
+    padding-bottom: 15%;
 }
 
 .section_content {

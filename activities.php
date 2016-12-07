@@ -49,22 +49,16 @@
 				<!-- Media Credit: Photo by Alisha Tamarchenko-->
 				<div class="section_content">
 					<h1>Performance Schedule</h1>
-					<p>Friday:</p>
-						<ul>
-							<li>Hilby The Skinny German Juggle Boy 12:30 and 4:45pm</li>
-						</ul>
-					<p>Saturday:</p>
-						<ul>
-							<li>12pm- Zajal the Sugarplum Fairy</li>
-							<li>1pm- The Next Jenneration</li>
-							<li>3pm- The Strong Woman Show</li>
-							<li>4:30- IC Circus</li>
-						</ul>
-					<p>Sunday:</p>
-						<ul>
-							<li>12:30pm Matan Presberg - Juggler</li>
-							<li>3pm- Hula Hut Polynesian Dance</li>
-						</ul>
+					<p class='day'>Friday:</p>
+					<p>Hilby The Skinny German Juggle Boy 12:30 and 4:45pm</p>
+					<p class='day'>Saturday:</p>
+					<p>12pm- Zajal the Sugarplum Fairy</p>
+					<p>1pm- The Next Jenneration</p>
+					<p>3pm- The Strong Woman Show</p>
+					<p>4:30- IC Circus</p>
+					<p class='day'>Sunday:</p>
+					<p>12:30pm Matan Presberg - Juggler</p>
+					<p>3pm- Hula Hut Polynesian Dance</p>
 				</div> <!-- credit: http://www.downtownithaca.com/ithaca-events/Apple%20Harvest%20Festival%20Presented%20by%20Tompkins%20Trust# -->
 			</div>
 		</div>
