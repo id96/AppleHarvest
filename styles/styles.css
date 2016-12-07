@@ -163,23 +163,19 @@ p {
     height: auto;
 }
 
-.button_container button:hover {
-    z-index: 2;
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
-
 #sendbutton{
     font-size: 1em;
     font-family: 'Montserrat', sans-serif;
     background-color: #008CBA;
     color: white;
+    border: 3px solid #008CBA;
 }
 #overviewblue{
     font-size: 1em;
     font-family: 'Montserrat', sans-serif;
     background-color: #008CBA;
     color: white;
+    border: 3px solid #008CBA;
 }
 
 #brown10{
@@ -187,54 +183,43 @@ p {
     font-family: 'Montserrat', sans-serif;
     background-color: #4A1A04;
     color: white;
+    border: 3px solid #4A1A04;
 }
 #red11{
     font-size: 1em;
     font-family: 'Montserrat', sans-serif;
     background-color: #f44336;
     color: black;
+    border: 3px solid #f44336;
 }
 #yellow15{
     font-size: 1em;
     font-family: 'Montserrat', sans-serif;
     background-color: #FFB428;
     color: black;
+    border: 3px solid #FFB428;
 }
 #green17{
     font-size: 1em;
     font-family: 'Montserrat', sans-serif;
     background-color: #4C5225;
     color: white;
+    border: 3px solid #4C5225;
 }
 
 #googlemap > iframe{
     margin:auto;
     width: 100%;
     height: 450px;
-    border: 0;
+    style: border:0;
 }
 
 #googlemap {
   padding-bottom: 2em;
 }
-/**********************/
-/* Gallery styling  */
-/**********************/
 
-#image_slide > img{
-    margin: auto;
-    padding-top: 4em;
-    padding-bottom: 2em;
-    max-width: 100%;
-    height: auto;
-}
-
-.mySlides{
-  width: 100%;
-  display: none;
-}
 /**********************/
-/* Activities styling  */
+/* Direction styling  */
 /**********************/
 
 #title {
@@ -280,7 +265,6 @@ p {
 }
 
 @font-face {
-    /*Font for icons taken from Socion: http://www.socicon.com/*/
     font-family: 'si';
     src: url('social_icons/socicon.eot');
     src: url('social_icons/socicon.eot?#iefix') format('embedded-opentype'),
@@ -292,12 +276,12 @@ p {
 
 }
 
-/*@media screen and (-webkit-min-device-pixel-ratio:0) {
+@media screen and (-webkit-min-device-pixel-ratio:0) {
     @font-face {
         font-family:si;
         src: url(styles/social_icons/socicon.svg) format(svg);
     }
-}*/
+}
 
 .footStyle {
   font-family: 'Montserrat', sans-serif;
@@ -318,6 +302,8 @@ p {
 
 .soc li {
     display:inline-block;
+    *display:inline;
+    zoom:1;
 }
 
 .soc li a {
@@ -357,6 +343,7 @@ p {
     border-radius: 100px;
     margin-right: 35px;
     color: #ffffff;
+    background-color: none;
 }
 
 .soc a:hover {
@@ -369,7 +356,6 @@ p {
     margin:0 !important;
 }
 
-/* [contents] are the unicode characters from the socion font stylesheet*/
 .soc-twitter {
     background-color: #4da7de;
 }
@@ -423,16 +409,155 @@ p {
 }
 
 .left {
+  /*padding: 30px;*/
   float: left;
   width: 50%;
+  /*width: 50px;*/
+  /*left: 10px;*/
 }
 
 .right {
   float: right;
   width: 50%;
+  /*right: 0px;*/
 }
 
 .just {
   padding-right: 40px;
   text-align: right;
+}
+
+/**********************/
+/* responsive styling*/
+/**********************/
+
+@media screen and (max-width: 1200px) {
+    #content {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    #banner > h2 {
+		padding-left: 1em; 
+	}
+	
+	ul {
+		padding-right: 2em; 
+	}
+    
+    #content {
+        max-width: 80%;
+    }
+
+	.event_info {
+		width: 15em;
+	}
+
+	.info{
+		margin-left: 3em;
+
+	}
+
+	.info > h3{
+		font-size: 75%; 
+	}
+
+	.info > h4{
+		font-size: 75%;
+	}
+
+	.icon {
+		margin-left: -8em;
+		margin-top:-4.5em;
+	}
+
+}
+
+@media screen and (max-width: 480px) {	
+	#nav_bar {
+		width: 100%;
+		height: 1em;
+		font-size: 0.8em;
+	}
+	
+	#nav_bar li{
+		display: block;
+		width: 100%;
+		background-color:white;
+		border-bottom: solid 2px; 
+		border-bottom-color: #3B1E0E; 
+		color: #3B1E0E;
+	}
+	
+	#nav_bar li a {
+		display: block;
+		color:#3B1E0E;
+		padding-bottom: 0.3em; 
+		padding-top: 0.3em; 
+	}
+	
+	#nav_bar li a:hover {
+		color: beige;
+	}
+	
+	#event_container{
+		padding-top: 2em;
+		height: 14em; 
+		align-content: center; 
+	}
+
+	.event_info {
+		width: 18em;
+		margin-top: -8em; 
+		padding-bottom: 3.5em; 
+		padding-top: 5em; 
+	}
+
+	.info{
+		margin-left: 8em;
+	}
+
+	.info > h3{
+		font-size: 0.8em;
+	}
+
+	.info > h4{
+		font-size: 0.8em;
+	}
+
+	.icon {
+		margin-top:-15em;
+		padding-top: 12em; 
+	}
+	
+	.icon > img{
+		width: 12%; 
+		height: auto; 
+	}
+
+	#hero{
+		padding-top: 3.5em;
+	}
+	
+	.content {
+		padding-top: 2em;
+        max-width: 70%;
+		margin-left: auto; 
+		margin-right: auto; 
+    }
+
+	.content > iframe{
+		display: none; 
+	}
+	
+	.section > img{
+		display: none; 
+	}
+	
+	#usebar{
+		bottom: 0px; 
+	}
+
 }
