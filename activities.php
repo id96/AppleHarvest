@@ -65,7 +65,7 @@
 							<li>12:30pm Matan Presberg - Juggler</li>
 							<li>3pm- Hula Hut Polynesian Dance</li>
 						</ul>
-				</div>
+				</div> <!-- credit: http://www.downtownithaca.com/ithaca-events/Apple%20Harvest%20Festival%20Presented%20by%20Tompkins%20Trust# -->
 			</div>
 		</div>
 
