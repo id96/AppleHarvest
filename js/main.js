@@ -13,6 +13,17 @@ var roll;
 
 var slideIndex = 1;
 
+function calendar() {
+    if (window.addtocalendar)if(typeof window.addtocalendar.start == "function")return;
+    if (window.ifaddtocalendar == undefined) { window.ifaddtocalendar = 1;
+    var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
+    s.type = 'text/javascript';s.charset = 'UTF-8';s.async = true;
+    s.src = ('https:' == window.location.protocol ? 'https' : 'http')+'://addtocalendar.com/atc/1.5/atc.min.js';
+    var h = d[g]('body')[0];h.appendChild(s); }}();
+
+//following codes adapted from http://addtocalendar.com/#tab_widget_style-->
+
+
 function plusDivs(n) {
     showDivs(slideIndex += n);
 }
@@ -28,6 +39,7 @@ function showDivs(n) {
     }
     x[slideIndex-1].style.display = "block"; 
 }
+//adapt the code from w3 school
 
 
 function swapImg() {

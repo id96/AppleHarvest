@@ -17,6 +17,7 @@
 					<li>
 					<div class="event_info">
 						<div class="info">
+
 							<h3>Sept 30: 12PM-6PM </h3>
 							<h3>Oct 1-2: 10AM-6PM</h3>
 						</div>
@@ -60,32 +61,8 @@
 			<div id="spacer"></div>
 			<div id="description">
 				<h1>Ithaca's premier event of the Fall, Apple Harvest Festival is a three day celebration of food, fun, and apples!</h1>
-				<!--following codes adapted from
-			http://addtocalendar.com/#tab_widget_style-->
-				<div id="calendar">
-					<script type="text/javascript">(function () {
-		            if (window.addtocalendar)if(typeof window.addtocalendar.start == "function")return;
-		            if (window.ifaddtocalendar == undefined) { window.ifaddtocalendar = 1;
-		                var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
-		                s.type = 'text/javascript';s.charset = 'UTF-8';s.async = true;
-		                s.src = ('https:' == window.location.protocol ? 'https' : 'http')+'://addtocalendar.com/atc/1.5/atc.min.js';
-		                var h = d[g]('body')[0];h.appendChild(s); }})();
-		   			</script>
-
-				    <!-- 3. Place event data -->
-				    <span class="addtocalendar atc-style-glow-orange">
-				        <var class="atc_event">
-				            <var class="atc_date_start">2016-09-30 12:00:00</var>
-				            <var class="atc_date_end">2016-09-30 18:00:00</var>
-				            <var class="atc_timezone">America/New York</var>
-				            <var class="atc_title">Ithaca Aplle Harvest Festival</var>
-				            <var class="atc_description">May the force be with you</var>
-				            <var class="atc_location">Ithaca Commons</var>
-				            <var class="atc_organizer">Tompkins Trust</var>
-				            <var class="atc_organizer_email">...</var>
-				        </var>
-				    </span>
-				</div>
+			</div>
+			<div>
 				<p>The 34th Annual Great Downtown Ithaca Apple Harvest Festival by Presented Tompkins Trust Company is set to take place September 30 - October 2, 2016.  The 2016 Apple Harvest Festival hosts plenty of apples, local produce, fresh baked goods, family entertainment at every turn, games, rides, prizes and live performances on two stages. Apple Harvest Festival is a great introduction to the rich farm and artist community of Ithaca.  First time visitors can witness a variety of wonderful local entertainment while also visiting the historical outdoor pedestrian shopping mall, The Ithaca Commons.  The pedestrian mall is the epicenter of the festival and the gateway to a nostalgic journey to harvest season fun.</p>
 			</div>
 
