@@ -468,8 +468,6 @@ p {
 /* Content section styling    */
 /******************************/
 
-
-
 .col {
   width: 50%;
   float: left;
@@ -489,6 +487,10 @@ p {
 .activity_image {
     padding-top: 5%;
     padding-bottom: 5%;
+}
+
+.activity_imageMUSIC {
+    margin-top: 15%;
 }
 
 .section_content {
@@ -515,7 +517,7 @@ p {
         width: 75%;
         margin-top: 10%;
     }
-    
+
     .activity_imageMUSIC {
         width: 75%;
         margin-top: 40%;
@@ -653,6 +655,13 @@ p {
 	#usebar {
 		bottom: 0px;
 	}
-    
-    
+
+  .res {
+    display: none;
+  }
+
+  #use_bar {
+    height: 200px;
+  }
+
 }
