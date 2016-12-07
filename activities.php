@@ -11,10 +11,6 @@
 
 	<body>
 		<?php include 'includes/nav_bar.php';?>
-		<div id="hero">
-			<img src="images/apple-banner.jpg" alt="Banner">
-			<!-- Media Credit : Couleur pixabay -->
-		</div>
 		
 		<h1 id='title'>What is there to do at Apple Fest?</h1>
 

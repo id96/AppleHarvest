@@ -11,10 +11,6 @@
 
 	<body>
 		<?php include 'includes/nav_bar.php';?>
-		<div id="hero">
-			<img src="images/apple-banner.jpg" alt="Banner">
-			<!-- Media Credit : Couleur pixabay -->
-		</div>
 
 		<div id="event_container">
 				<ul>
@@ -64,7 +60,7 @@
 			<div id="spacer"></div>
 			<div id="description">
 				<h1>Ithaca's premier event of the Fall, Apple Harvest Festival is a three day celebration of food, fun, and apples!</h1>
-				<!--following codes adapted from 
+				<!--following codes adapted from
 			http://addtocalendar.com/#tab_widget_style-->
 				<div id="calendar">
 					<script type="text/javascript">(function () {
