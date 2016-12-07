@@ -29,7 +29,7 @@
 			<hr>
 
 			<p class="mapdescription">Public Transportations: All the TCAT Bus Routes to the Commons</p>
-			<p class="bold">Click individual Buttons to Check the Route Schedule: </p>
+			<p class="normal">Click individual Buttons to Check the Route Schedule: </p>
 
 			 <span class="button_container">
 			 	<button id="overviewblue" onclick="swapImg()">Overview</button>
@@ -45,7 +45,7 @@
 				<img class="long" src="images/routemap_long.jpg" alt="routemap">
 				<!-- Media Credit : TCAT Website -->
 			</div>
-			<p class="bold">Route Schedules and Maps Taken From TCAT's <a href="http://https://www.tcatbus.com/ride/2015-ride-guide/" target="_blank">Ride Guide</a>!</p>
+			<p>Route Schedules and Maps Taken From TCAT's <a href="http://https://www.tcatbus.com/ride/2015-ride-guide/" target="_blank">Ride Guide</a>!</p>
 
 			<!-- parition -->
 			<hr>
