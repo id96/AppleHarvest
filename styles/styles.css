@@ -291,8 +291,6 @@ p {
     background-color: #008CBA;
     color: white;
 }
-=======
->>>>>>> origin/master
 
 /**********************/
 /* Direction styling  */
@@ -492,8 +490,8 @@ p {
 }
 
 .activity_image_special {
-    padding-top: 18%;
-    padding-bottom: 15%;
+    padding-top: 25%;
+    padding-bottom: 10%;
 }
 
 .section_content {
@@ -530,6 +528,10 @@ p {
 @media screen and (max-width: 1200px) {
     #content {
         width: 100%;
+    }
+    
+    #title {
+        text-align: center;
     }
 
 }
@@ -568,7 +570,13 @@ p {
 		margin-left: -8em;
 		margin-top:-4.5em;
 	}
-
+    
+    .activity_image {
+        display: none;
+    }
+    .activity_image_special {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 480px) {

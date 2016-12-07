@@ -14,7 +14,7 @@
 
 		<br>
 
-		<h1 id='title'>What is there to do at Apple Fest?</h1>
+		<h1 id="title">What is there to do at Apple Fest?</h1>
 
 		<br>
 		<hr>
