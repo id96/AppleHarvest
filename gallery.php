@@ -14,12 +14,10 @@
 
 		<div id="slide_w3" onload="showDivs(1)">
 			<div class="button_container">
-				<button id="slide_previous" onclick="plusDivs(-1)">Previous</button>
-				<button id="slide_next" onclick="plusDivs(+1)">Next</button>
+				<button id="slide_previous" onclick="movePrevious()"></button>
+				<button id="slide_next" onclick="moveNext()"></button>
 			</div>
-			<img class="mySlides" src="images/apples-1285236_1920.jpg">
-			<img class="mySlides" src="images/hannah_applefest.jpg">
-			<img class="mySlides" src="images/IV-AppleFest017 (Photo by Alex Anderson).jpg">	
+			<img class="slide_display" src="IV-AppleFest001 (Photo by Hannah MacLean).jpg">
 		</div>
 
 

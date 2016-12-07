@@ -171,6 +171,11 @@ p {
     max-width: 100%;
     height: auto;
 }
+.button_container button:hover {
+    z-index: 2;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
 
 #sendbutton{
     font-size: 1em;
@@ -226,7 +231,6 @@ p {
 #googlemap {
   padding-bottom: 2em;
 }
-<<<<<<< HEAD
 
 
 @media screen and (min-width: 1024px){
@@ -291,8 +295,7 @@ p {
     background-color: #008CBA;
     color: white;
 }
-=======
->>>>>>> origin/master
+
 
 /**********************/
 /* Direction styling  */

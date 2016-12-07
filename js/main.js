@@ -12,8 +12,8 @@ var pix = ["IV-AppleFest001 (Photo by Hannah MacLean)",
 ];
 var index = 0;
 var main_image = document.getElementById("slide_display");
+var imagename;
 var roll;
-
 //following codes adapted from http://addtocalendar.com/#tab_widget_style-->
 
 // functions
