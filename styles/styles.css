@@ -609,6 +609,10 @@ p {
 		margin-right: auto; 
     }
 	
+	.content > iframe{
+		width: 85%;  
+	}
+	
 }
 
 @media screen and (max-width: 620px) {	
