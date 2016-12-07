@@ -242,8 +242,8 @@ p {
 }
 
 .activity_image {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 20px;
+    padding-bottom: 30px;
     display: inline-block;
     height: 267px;
     width: 400px;
@@ -410,16 +410,20 @@ p {
   width: 80%;
 }
 
+.section-background {
+  background-color: #C7C7C7;
+  width: 100%;
+}
+
 .section_image {
   padding-top: 80px;
   padding-bottom: 80px;
   display: inline-block;
-  height: 60%;
+  /*min-height: 60%;*/
 }
 
 .section_content {
-  padding-top: 70px;
-  display: inline-block;
+   display: inline-block;
 }
 
 .left {
