@@ -81,7 +81,7 @@ p {
 #event_container {
     font-family: 'Montserrat', sans-serif;
     width: 100%;
-	margin-top: -1em;
+	  margin-top: -1em;
     height: 10em;
 	background-color: beige;
 	list-style: none;
@@ -90,7 +90,7 @@ p {
 
 #event_container ul {
     display: inline-block;
-	list-style-type: none;
+	 list-style-type: none;
 	margin-top: 3em;
 }
 
@@ -155,7 +155,9 @@ p {
   font-family: 'Montserrat', sans-serif;
   font-size: 2em;
 }
-
+.long{
+  display: none;
+}
 #directionimg > img{
     margin: auto;
     padding-bottom: 1.5em;
@@ -224,6 +226,73 @@ p {
 #googlemap {
   padding-bottom: 2em;
 }
+<<<<<<< HEAD
+
+
+@media screen and (min-width: 1024px){
+
+ }
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .content {
+        margin-right: 2em;
+        margin-left: 2em;
+    }
+ }
+
+@media screen and (max-width: 768px)and (min-width: 480px){
+    .content {
+      margin-right: 2em;
+      margin-left: 2em;
+    }
+    .bold {
+      font-size: 'Raleway', sans-serif;
+      font-weight: bold;
+    }
+
+}
+@media screen and (max-width: 480px) {
+  .normal{
+    display: none;
+  }
+  .long{
+      display: block;
+  }
+  .content {
+      margin-right: 2em;
+      margin-left: 2em;
+    }
+  .bold {
+      font-size: 'Raleway', sans-serif;
+      font-weight: bold;
+  }
+}
+/**********************/
+/* Gallery styling  */
+/**********************/
+
+#slide_display > img{
+    margin: auto;
+    padding-top: 4em;
+    padding: 2em;
+    width: 100%;
+    height: auto;
+}
+#slide_previous{
+    float: left;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #008CBA;
+    color: white;
+}
+#slide_next{
+    float:right;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #008CBA;
+    color: white;
+}
+=======
+>>>>>>> origin/master
 
 /**********************/
 /* Direction styling  */

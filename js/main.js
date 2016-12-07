@@ -5,28 +5,36 @@
 */
 //just try with the images we have right now and two images I found on flickr,
 //would replace and resize the images later
-var pix = ["apples-1285236_1920", "hannah_applefest"];
+var pix = ["IV-AppleFest001 (Photo by Hannah MacLean)",
+"IV-AppleFest003 (Photo by Alisha Tamarchenko)", "IV-AppleFest004（Photo by Alisha Tamarchenko",
+"IV-AppleFest026 (Photo by Alisha Tamarchenko)", "IV-AppleFest017 (Photo by Alex Anderson)", 
+"IV-AppleFest009 (Photo by Alisha Tamarchenko)", "IV-AppleFest010 (Photo by Alisha Tamarchenko)"
+];
 var index = 0;
-var main_image = document.getElementById("enlarge");
-//var change_name = "routemap";
+var main_image = document.getElementById("slide_display");
 var roll;
 
-var slideIndex = 1;
+//following codes adapted from http://addtocalendar.com/#tab_widget_style-->
 
-function plusDivs(n) {
-    showDivs(slideIndex += n);
+// functions
+function movePrevious() {
+    if (index <= 0) {
+        index = pix.length-1;
+    } else {
+        index -= 1;
+    }
+    var imagename = 'images/' + pix[index] + '.jpg'
+    document.getElementById('slide_display').src=imagename;
 }
 
-function showDivs(n) {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    //var x = "apples-1285236_1920", "hannah_applefest"];
-    if (n > x.length) {slideIndex = 1} 
-    if (n < 1) {slideIndex = x.length} ;
-    for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none"; 
+function moveNext() {
+    if (index < pix.length-1) {
+        index += 1;
+    } else {
+        index = 0;
     }
-    x[slideIndex-1].style.display = "block"; 
+    var imagename = 'images/' + pix[index] + '.jpg'
+    document.getElementById('slide_display').src=imagename;
 }
 
 

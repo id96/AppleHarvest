@@ -20,7 +20,8 @@
 				<button id="sendbutton" onclick="window.location.href='mailto:name@email.com'">Send the Map to your email</button>
 			</div>
 			<div id="directionimg">
-			<img src="images/overview.jpg" alt="overview">
+			<img class="normal" src="images/overview.jpg" alt="overview">
+			<img class="long" src="images/overview_long.jpg" alt="overview">
 				<!-- Media Credit : Downtown Ithaca Website -->
 			</div>
 
@@ -28,7 +29,7 @@
 			<hr>
 
 			<p class="mapdescription">Public Transportations: All the TCAT Bus Routes to the Commons</p>
-			<p>Click individual Buttons to Check the Route Schedule: </p>
+			<p class="bold">Click individual Buttons to Check the Route Schedule: </p>
 
 			 <span class="button_container">
 			 	<button id="overviewblue" onclick="swapImg()">Overview</button>
@@ -43,7 +44,7 @@
 				<img id="enlarge" src="images/routemap.jpg" alt="routemap">
 				<!-- Media Credit : TCAT Website -->
 			</div>
-			<span>Route Schedules and Maps Taken From TCAT's <a href="http://https://www.tcatbus.com/ride/2015-ride-guide/" target="_blank">Ride Guide</a>!</span>
+			<p class="bold">Route Schedules and Maps Taken From TCAT's <a href="http://https://www.tcatbus.com/ride/2015-ride-guide/" target="_blank">Ride Guide</a>!</p>
 
 			<!-- parition -->
 			<hr>
